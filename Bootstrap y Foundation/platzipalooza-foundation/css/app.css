@@ -1,0 +1,158 @@
+/* font-family: 'Bree Serif', serif;
+font-family: 'Ravi Prakash', cursive;*/
+body{
+	background-color: #ee3f54;
+	font-family: 'Bree Serif', serif;
+}
+h1, h2, h3, h4, h5, h6, button{
+	font-family: 'Bree Serif', serif;
+}
+#social-container{
+	background-color: #1c3343;
+}
+#logo-container .callout{
+	background-color: #ee3f54;
+	color: #fff;
+	margin-bottom: 0;
+}
+#menu-container{
+	background-color: #48a19d;
+}
+#menu-container li a{
+	color: #fff;
+	font-family: 'Bree Serif', serif;
+}
+#menu-container li a:hover{
+	color: #f6e15f;
+}
+#submenu-container{
+	border: none;
+}
+#submenu-container li a{
+	background-color: #48a19d;
+}
+#tickets-action .callout{
+	background-color: #5e7eb7;
+	color: #fff;
+	margin-bottom: 0;
+}
+#tickets-action .callout button{
+	color: #fff;
+	border-color: #fff;
+}
+#lineup-container{
+	padding:1em 0;
+}
+#lineup-container,
+#lineup-container .tabs,
+#lineup-container .tabs-panel,
+#lineup-container .tabs .tabs-title,
+#lineup-container .tabs .tabs-title.is-active a{
+	background-color:#9676af;
+	color: #fff;
+	border: none;
+	text-transform: uppercase;
+	font-family: 'Bree Serif', serif;
+}
+.tabs-content{
+	border: none;
+}
+#lineup-container .tabs .tabs-title a{
+	font-size: 18px;
+	color: #a7fffb;
+}
+#lineup-container .tabs .tabs-title a:hover{
+	color: #FFF;
+	background-color: #9676af;
+}
+.tabs-title{
+	display: inline-block;
+	float: none;
+}
+#lineup-container .orbit-container{
+	height: auto;
+	margin-bottom: 1em;
+}
+#lineup-container .column:nth-child(odd) .orbit-caption{
+	text-align: right;
+}
+#tickets-container{
+	padding: 1em 0;
+	background-color: #f6e15f;
+	color: #161742;
+}
+.pricing-table {
+  background-color: #fefefe;
+  border: solid 1px #cacaca;
+  width: 100%;
+  text-align: center;
+  list-style-type: none;
+}
+.pricing-table li {
+  border-bottom: dotted 1px #cacaca;
+  padding: 0.875rem 1.125rem;
+}
+.pricing-table li:last-child {
+  border-bottom: 0;
+}
+.pricing-table .title {
+  background-color: #0a0a0a;
+  color: #fefefe;
+  border-bottom: 0;
+}
+.pricing-table .price {
+  background-color: #e6e6e6;
+  font-size: 2rem;
+  border-bottom: 0;
+}
+.pricing-table .description {
+  color: #8a8a8a;
+  font-size: 80%;
+}
+.pricing-table :last-child {
+  margin-bottom: 0;
+}
+.pricing-table{
+	border: 1px solid #161742;
+	font-family: 'Ravi Prakash', cursive;
+	margin-left: 0;
+}
+.pricing-table li,
+.pricing-table li.description{
+	font-size: 20px;
+}
+.pricing-table li.price,
+.pricing-table li.title{
+	font-size: 30px;
+}
+.pricing-table a.button{
+	font-family: 'Bree Serif', serif;
+}
+#info-container{
+	background-color: #161742;
+	color: #fff;
+	padding: 1em 0;
+}
+#suscribete-container{
+	background-color: #ee3f54;
+	color: #fff;
+	padding: 1em 0;
+}
+#suscribete-container h4 small{
+	color: #ffcddc;
+}
+#scroll-sticky{
+	z-index: 100;
+}
+#offCanvas,
+#offCanvas ul li a{
+	background-color: #000;
+	font-family: 'Bree Serif', serif;
+	color: #fff;
+}
+#offCanvas .drilldown .is-drilldown-submenu-parent > a::after{
+	border-left-color: #fff;
+}
+#offCanvas .drilldown .js-drilldown-back > a::before{
+	border-right-color: #fff;
+}
