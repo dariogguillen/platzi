@@ -7,6 +7,6 @@ ${base} y altura ${height} es: ${trianguloArea(base, height)}`)
 
 const PI = 3.1416
 let radio = 5
-const areaCirculo = (PI , radio) => PI * (radio*radio)
+const areaCirculo = (PI, radio) => PI * (radio * radio)
 console.log(`El area de un circulo de radio ${radio}
 es igual a ${areaCirculo(PI, radio)}`)

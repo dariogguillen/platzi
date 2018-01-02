@@ -9,12 +9,12 @@ const ageDana = 12
 
 const puedeVerStarWars7 = (name, age, isWithAdult = false) => {
     if (age >= pgStarWars7) {
-    alert(`${name} puede pasar a ver ${starWars7}`)
+        alert(`${name} puede pasar a ver ${starWars7}`)
     } else if (isWithAdult) {
-    alert(`${name} puede pasar a ver ${starWars7}.
+        alert(`${name} puede pasar a ver ${starWars7}.
     Aunque su edad es ${age}, viene acompanado/a por un adulto `)
     } else {
-    alert(`${name} no puede pasar a ver ${starWars7}.
+        alert(`${name} no puede pasar a ver ${starWars7}.
     Tiene ${age} anos y necesita tener ${pgStarWars7}.`)
     }
 }

@@ -1,339 +1,344 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Platzipalooza</title>
-		<link rel="stylesheet" href="icons/foundation-icons.css">
-		<link rel="stylesheet" href="css/foundation-flex.css">
-		<link href="https://fonts.googleapis.com/css?family=Bree+Serif|Ravi+Prakash" rel="stylesheet">
-		<link rel="stylesheet" href="css/app.css">
-	</head>
-	<body>
-		<div class="off-canvas-wrapper">
-			<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
-				<div class="off-canvas position-left" id="offCanvas" data-off-canvas>
-					<nav data-magellan>
-						<ul class="vertical menu" data-drilldown>
-							<li><a href="#tickets-container">Tickets</a></li>
-							<li>
-								<a href="#lineup-container">LineUp</a>
-								<ul id="submenu-container" class="vertical menu">
-									<li><a data-toggle-dia="panel-viernes" href="#lineup-container">Viernes</a></li>
-									<li><a data-toggle-dia="panel-sabado" href="#lineup-container">Sabado</a></li>
-									<li><a data-toggle-dia="panel-domingo" href="#lineup-container">Domingo</a></li>
-								</ul>
-							</li>
-							<li><a href="#info-container">Info</a></li>
-							<li><a href="#suscribete-container">Suscribirte</a></li>
-						</ul>
-					</nav>
-				</div>
-				<div class="off-canvas-content" data-off-canvas-content>
-					<!-- Social -->
-					<section id='social-container'>
-						<div class="row align-center text-center">
-							<div class="column small-1">
-								<a href="#" target="_blank"><i class="fi-social-facebook"></i></a>
-							</div>
-							<div class="column small-1">
-								<a href="#" target="_blank"><i class="fi-social-twitter"></i></a>
-							</div>
-							<div class="column small-1">
-								<a href="#" target="_blank"><i class="fi-social-instagram"></i></a>
-							</div>
-						</div>
-					</section>
-					<!-- /Social -->
-					<!-- Logo -->
-					<section id="logo-container">
-						<div class="callout text-center">
-							<h1>Platzipalooza</h1>
-						</div>
-					</section>
-					<!-- /Logo -->
-					<!-- Menu -->
-					<section id="scroll-sticky" data-sticky-container>
-						<div class="data-sticky" data-sticky data-margin-top="0" data-sticky-on="small" data-top-anchor="scroll-sticky">
-							<nav id="menu-container" data-magellan>
-								<ul class="show-for-small-only menu align-spaced">
-									<li><a href="#" data-toggle="offCanvas">Menu</a></li>
-								</ul>
-								<ul class="menu dropdown align-spaced show-for-medium" data-dropdown-menu>
-									<li><a href="#tickets-container">Tickets</a></li>
-									<li>
-										<a href="#lineup-container">LineUp</a>
-										<ul id="submenu-container" class="menu">
-											<li><a data-toggle-dia="panel-viernes" href="#lineup-container">Viernes</a></li>
-											<li><a data-toggle-dia="panel-sabado" href="#lineup-container">Sabado</a></li>
-											<li><a data-toggle-dia="panel-domingo" href="#lineup-container">Domingo</a></li>
-										</ul>
-									</li>
-									<li><a href="#info-container">Info</a></li>
-									<li><a href="#suscribete-container">Suscribirte</a></li>
-								</ul>
-							</nav>
-						</div>
-					</section>
-					<!-- /Menu -->
-					<!-- Tockets -->
-					<section id="tickets-action">
-						<div class="callout large text-center">
-							<a href="#">
-								<button class="hollow button large">Comprar boletos</button>
-							</a>
-						</div>
-					</section>
-					<!-- /Tockets -->
-					<!-- LineUp -->
-					<section id="lineup-container" data-magellan-tagert="lineup-container">
-						<h3 class="text-center">LineUp</h3>
-						<ul class="tabs text-center" id="lineup-tabs" data-tabs>
-							<li class="tabs-title is-active">
-								<a href="#panel-viernes">Viernes</a>
-							</li><li class="tabs-title">
-								<a href="#panel-sabado">Sabado</a>
-							</li><li class="tabs-title">
-								<a href="#panel-domingo">Domingo</a>
-							</li>
-						</ul>
-						<div class="tabs-content" data-tabs-content="lineup-tabs">
-							<div class="tabs-panel is-active" id="panel-viernes">
-								<div class="row">
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://www.fotogramas.es/var/ezflow_site/storage/images/noticias-cine/el-biopic-de-queen-ya-esta-en-marcha/135878904-1-esl-ES/El-biopic-de-Queen-ya-esta-en-marcha_landscape.jpg" alt="Queen" class="orbit-image">
-												<figcaption class="orbit-caption">Queen</figcaption>
-											</div>
-										</div>
-									</div>
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://www.fotogramas.es/var/ezflow_site/storage/images/noticias-cine/el-biopic-de-queen-ya-esta-en-marcha/135878904-1-esl-ES/El-biopic-de-Queen-ya-esta-en-marcha_landscape.jpg" alt="Queen" class="orbit-image">
-												<figcaption class="orbit-caption">Queen</figcaption>
-											</div>
-										</div>
-									</div>
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://www.fotogramas.es/var/ezflow_site/storage/images/noticias-cine/el-biopic-de-queen-ya-esta-en-marcha/135878904-1-esl-ES/El-biopic-de-Queen-ya-esta-en-marcha_landscape.jpg" alt="Queen" class="orbit-image">
-												<figcaption class="orbit-caption">Queen</figcaption>
-											</div>
-										</div>
-									</div>
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://www.fotogramas.es/var/ezflow_site/storage/images/noticias-cine/el-biopic-de-queen-ya-esta-en-marcha/135878904-1-esl-ES/El-biopic-de-Queen-ya-esta-en-marcha_landscape.jpg" alt="Queen" class="orbit-image">
-												<figcaption class="orbit-caption">Queen</figcaption>
-											</div>
-										</div>
-									</div>
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://www.fotogramas.es/var/ezflow_site/storage/images/noticias-cine/el-biopic-de-queen-ya-esta-en-marcha/135878904-1-esl-ES/El-biopic-de-Queen-ya-esta-en-marcha_landscape.jpg" alt="Queen" class="orbit-image">
-												<figcaption class="orbit-caption">Queen</figcaption>
-											</div>
-										</div>
-									</div>
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://www.fotogramas.es/var/ezflow_site/storage/images/noticias-cine/el-biopic-de-queen-ya-esta-en-marcha/135878904-1-esl-ES/El-biopic-de-Queen-ya-esta-en-marcha_landscape.jpg" alt="Queen" class="orbit-image">
-												<figcaption class="orbit-caption">Queen</figcaption>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tabs-panel" id="panel-sabado">
-								<div class="row">
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://crazy4rock.com/wp-content/uploads/2017/11/rs-acdc-4eacf633-23f4-4ddc-a067-f4a953ff2896.jpg" alt="AC/DC" class="orbit-image">
-												<figcaption class="orbit-caption">AC/DC</figcaption>
-											</div>
-										</div>
-									</div>
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://crazy4rock.com/wp-content/uploads/2017/11/rs-acdc-4eacf633-23f4-4ddc-a067-f4a953ff2896.jpg" alt="AC/DC" class="orbit-image">
-												<figcaption class="orbit-caption">AC/DC</figcaption>
-											</div>
-										</div>
-									</div>
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://crazy4rock.com/wp-content/uploads/2017/11/rs-acdc-4eacf633-23f4-4ddc-a067-f4a953ff2896.jpg" alt="AC/DC" class="orbit-image">
-												<figcaption class="orbit-caption">AC/DC</figcaption>
-											</div>
-										</div>
-									</div>
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://crazy4rock.com/wp-content/uploads/2017/11/rs-acdc-4eacf633-23f4-4ddc-a067-f4a953ff2896.jpg" alt="AC/DC" class="orbit-image">
-												<figcaption class="orbit-caption">AC/DC</figcaption>
-											</div>
-										</div>
-									</div>
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://crazy4rock.com/wp-content/uploads/2017/11/rs-acdc-4eacf633-23f4-4ddc-a067-f4a953ff2896.jpg" alt="AC/DC" class="orbit-image">
-												<figcaption class="orbit-caption">AC/DC</figcaption>
-											</div>
-										</div>
-									</div>
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://crazy4rock.com/wp-content/uploads/2017/11/rs-acdc-4eacf633-23f4-4ddc-a067-f4a953ff2896.jpg" alt="AC/DC" class="orbit-image">
-												<figcaption class="orbit-caption">AC/DC</figcaption>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="tabs-panel" id="panel-domingo">
-								<div class="row">
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://assets.teamrock.com/image/8c9cc3d8-3a26-4e80-be04-b83af421402f?w=800" alt="Black Sabbath" class="orbit-image">
-												<figcaption class="orbit-caption">Black Sabbath</figcaption>
-											</div>
-										</div>
-									</div>
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://assets.teamrock.com/image/8c9cc3d8-3a26-4e80-be04-b83af421402f?w=800" alt="Black Sabbath" class="orbit-image">
-												<figcaption class="orbit-caption">Black Sabbath</figcaption>
-											</div>
-										</div>
-									</div>
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://assets.teamrock.com/image/8c9cc3d8-3a26-4e80-be04-b83af421402f?w=800" alt="Black Sabbath" class="orbit-image">
-												<figcaption class="orbit-caption">Black Sabbath</figcaption>
-											</div>
-										</div>
-									</div>
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://assets.teamrock.com/image/8c9cc3d8-3a26-4e80-be04-b83af421402f?w=800" alt="Black Sabbath" class="orbit-image">
-												<figcaption class="orbit-caption">Black Sabbath</figcaption>
-											</div>
-										</div>
-									</div>
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://assets.teamrock.com/image/8c9cc3d8-3a26-4e80-be04-b83af421402f?w=800" alt="Black Sabbath" class="orbit-image">
-												<figcaption class="orbit-caption">Black Sabbath</figcaption>
-											</div>
-										</div>
-									</div>
-									<div class="small-12 medium-6 column">
-										<div class="orbit-container">
-											<div class="orbit-slide">
-												<img src="http://assets.teamrock.com/image/8c9cc3d8-3a26-4e80-be04-b83af421402f?w=800" alt="Black Sabbath" class="orbit-image">
-												<figcaption class="orbit-caption">Black Sabbath</figcaption>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-					<!-- /LineUp -->
-					<!-- Compra de Boletos -->
-					<section id="tickets-container" data-magellan-tagert="tickets-container">
-						<h3 class="text-center">Compra de Boletos</h3>
-							<div class="row">
-								<div class="column small-10 medium-6 medium-offset-3 small-offset-1">
-									<ul class="pricing-table">
-										<li class="title">Platino</li>
-										<li class="price">$120</li>
-										<li class="description">Acceso viernes, sabado, domingo</li>
-										<li>2 bebidas por dia</li>
-										<li>Estacionamiento incluido todos los dias</li>
-										<li>Participa a sorteo para acceder al backstage</li>
-										<li><a class="button" href="#">Compra Platino</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="row align-spaced" data-equalizer data-equalizer-on="small">
-								<div class="column small-6 medium-5 ">
-									<ul class="pricing-table">
-										<li class="title">Gold</li>
-										<li class="price">$90</li>
-										<li class="description">Acceso viernes, sabado, domingo</li>
-										<li>1 bebidas por dia</li>
-										<li data-equalizer-watch>Estacionamiento incluido todos los dias </li>
-										<li>No participa en sorteo para acceder al backstage</li>
-										<li><a class="button" href="#">Compra Gold</a></li>
-									</ul>
-								</div>
-								<div class="column small-6 medium-4 ">
-									<ul class="pricing-table">
-										<li class="title">Silver</li>
-										<li class="price">$60</li>
-										<li class="description">Acceso viernes, sabado, domingo</li>
-										<li>No incluye bebidas</li>
-										<li data-equalizer-watch>Estacionamiento no incluido</li>
-										<li>No participa en sorteo para acceder al backstage</li>
-										<li><a class="button" href="#">Compra Silver</a></li>
-									</ul>
-								</div>
-							</div>
-					</section>
-					<!-- /Compra de Boletos -->
-					<!-- Suscribete -->
-					<section id="suscribete-container" data-magellan-tagert="suscribete-container">
-						<h3 class="text-center">Suscribete</h3>
-						<h4 class="text-center"><small>Y recibe las ultimas novedades del concierto</small></h4>
-						<form action="https://formspree.io/dar_fe@hotmail.com" method="POST" novalidate data-abide>
-							<div data-abide-error class="row columns small-12 medium-6 text-center error-container" style="display: none;">
-								<p><i class="fi-alert"></i>Ingreso un correo no valido</p>
-							</div>
-							<div class="row columns small-12 medium-6">
-								<div class="input-group">
-									<span class="input-group-label"><i class="fi-mail"></i></span>
-									<input type="email" name="mail" class="input-group-field" placeholder="tu@correo.com" required>
-									<div class="input-group-button">
-										<input type="submit" class="button" value="Suscribirse">
-									</div>
-								</div>
-							</div>
-						</form>
-					</section>
-					<!-- /Suscribete -->
-					<!-- Info -->
-					<section id="info-container" data-magellan-tagert="info-container">
-						<h3 class="text-center">Informacion</h3>
-						<div class="text-center">
-							<div class="info-map" data-interchange="[assets/mapa-img-small.html, small], [assets/map-large.html, large]"></div>
-						</div>
-					</section>
-					<!-- /Info -->
-				</div>
-			</div>
-		</div>
-		<script src="js/vendor/jquery.js"></script>
-		<script src="js/vendor/what-input.js"></script>
-		<script src="js/vendor/foundation.js"></script>
-		<script src="js/app.js"></script>
-	</body>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platzipalooza</title>
+    <link rel="stylesheet" href="icons/foundation-icons.css">
+    <link rel="stylesheet" href="css/foundation-flex.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Ravi+Prakash" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <div class="off-canvas-wrapper">
+        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+            <div class="off-canvas position-left" id="offCanvas" data-off-canvas>
+                <nav data-magellan>
+                    <ul class="vertical menu" data-drilldown>
+                        <li><a href="#tickets-container">Tickets</a></li>
+                        <li>
+                            <a href="#lineup-container">LineUp</a>
+                            <ul id="submenu-container" class="vertical menu">
+                                <li><a data-toggle-dia="panel-viernes" href="#lineup-container">Viernes</a></li>
+                                <li><a data-toggle-dia="panel-sabado" href="#lineup-container">Sabado</a></li>
+                                <li><a data-toggle-dia="panel-domingo" href="#lineup-container">Domingo</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#info-container">Info</a></li>
+                        <li><a href="#suscribete-container">Suscribirte</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="off-canvas-content" data-off-canvas-content>
+                <!-- Social -->
+                <section id='social-container'>
+                    <div class="row align-center text-center">
+                        <div class="column small-1">
+                            <a href="#" target="_blank"><i class="fi-social-facebook"></i></a>
+                        </div>
+                        <div class="column small-1">
+                            <a href="#" target="_blank"><i class="fi-social-twitter"></i></a>
+                        </div>
+                        <div class="column small-1">
+                            <a href="#" target="_blank"><i class="fi-social-instagram"></i></a>
+                        </div>
+                    </div>
+                </section>
+                <!-- /Social -->
+                <!-- Logo -->
+                <section id="logo-container">
+                    <div class="callout text-center">
+                        <h1>Platzipalooza</h1>
+                    </div>
+                </section>
+                <!-- /Logo -->
+                <!-- Menu -->
+                <section id="scroll-sticky" data-sticky-container>
+                    <div class="data-sticky" data-sticky data-margin-top="0" data-sticky-on="small" data-top-anchor="scroll-sticky">
+                        <nav id="menu-container" data-magellan>
+                            <ul class="show-for-small-only menu align-spaced">
+                                <li><a href="#" data-toggle="offCanvas">Menu</a></li>
+                            </ul>
+                            <ul class="menu dropdown align-spaced show-for-medium" data-dropdown-menu>
+                                <li><a href="#tickets-container">Tickets</a></li>
+                                <li>
+                                    <a href="#lineup-container">LineUp</a>
+                                    <ul id="submenu-container" class="menu">
+                                        <li><a data-toggle-dia="panel-viernes" href="#lineup-container">Viernes</a></li>
+                                        <li><a data-toggle-dia="panel-sabado" href="#lineup-container">Sabado</a></li>
+                                        <li><a data-toggle-dia="panel-domingo" href="#lineup-container">Domingo</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#info-container">Info</a></li>
+                                <li><a href="#suscribete-container">Suscribirte</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </section>
+                <!-- /Menu -->
+                <!-- Tockets -->
+                <section id="tickets-action">
+                    <div class="callout large text-center">
+                        <a href="#">
+                            <button class="hollow button large">Comprar boletos</button>
+                        </a>
+                    </div>
+                </section>
+                <!-- /Tockets -->
+                <!-- LineUp -->
+                <section id="lineup-container" data-magellan-tagert="lineup-container">
+                    <h3 class="text-center">LineUp</h3>
+                    <ul class="tabs text-center" id="lineup-tabs" data-tabs>
+                        <li class="tabs-title is-active">
+                            <a href="#panel-viernes">Viernes</a>
+                        </li>
+                        <li class="tabs-title">
+                            <a href="#panel-sabado">Sabado</a>
+                        </li>
+                        <li class="tabs-title">
+                            <a href="#panel-domingo">Domingo</a>
+                        </li>
+                    </ul>
+                    <div class="tabs-content" data-tabs-content="lineup-tabs">
+                        <div class="tabs-panel is-active" id="panel-viernes">
+                            <div class="row">
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://www.fotogramas.es/var/ezflow_site/storage/images/noticias-cine/el-biopic-de-queen-ya-esta-en-marcha/135878904-1-esl-ES/El-biopic-de-Queen-ya-esta-en-marcha_landscape.jpg" alt="Queen" class="orbit-image">
+                                            <figcaption class="orbit-caption">Queen</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://www.fotogramas.es/var/ezflow_site/storage/images/noticias-cine/el-biopic-de-queen-ya-esta-en-marcha/135878904-1-esl-ES/El-biopic-de-Queen-ya-esta-en-marcha_landscape.jpg" alt="Queen" class="orbit-image">
+                                            <figcaption class="orbit-caption">Queen</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://www.fotogramas.es/var/ezflow_site/storage/images/noticias-cine/el-biopic-de-queen-ya-esta-en-marcha/135878904-1-esl-ES/El-biopic-de-Queen-ya-esta-en-marcha_landscape.jpg" alt="Queen" class="orbit-image">
+                                            <figcaption class="orbit-caption">Queen</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://www.fotogramas.es/var/ezflow_site/storage/images/noticias-cine/el-biopic-de-queen-ya-esta-en-marcha/135878904-1-esl-ES/El-biopic-de-Queen-ya-esta-en-marcha_landscape.jpg" alt="Queen" class="orbit-image">
+                                            <figcaption class="orbit-caption">Queen</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://www.fotogramas.es/var/ezflow_site/storage/images/noticias-cine/el-biopic-de-queen-ya-esta-en-marcha/135878904-1-esl-ES/El-biopic-de-Queen-ya-esta-en-marcha_landscape.jpg" alt="Queen" class="orbit-image">
+                                            <figcaption class="orbit-caption">Queen</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://www.fotogramas.es/var/ezflow_site/storage/images/noticias-cine/el-biopic-de-queen-ya-esta-en-marcha/135878904-1-esl-ES/El-biopic-de-Queen-ya-esta-en-marcha_landscape.jpg" alt="Queen" class="orbit-image">
+                                            <figcaption class="orbit-caption">Queen</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs-panel" id="panel-sabado">
+                            <div class="row">
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://crazy4rock.com/wp-content/uploads/2017/11/rs-acdc-4eacf633-23f4-4ddc-a067-f4a953ff2896.jpg" alt="AC/DC" class="orbit-image">
+                                            <figcaption class="orbit-caption">AC/DC</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://crazy4rock.com/wp-content/uploads/2017/11/rs-acdc-4eacf633-23f4-4ddc-a067-f4a953ff2896.jpg" alt="AC/DC" class="orbit-image">
+                                            <figcaption class="orbit-caption">AC/DC</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://crazy4rock.com/wp-content/uploads/2017/11/rs-acdc-4eacf633-23f4-4ddc-a067-f4a953ff2896.jpg" alt="AC/DC" class="orbit-image">
+                                            <figcaption class="orbit-caption">AC/DC</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://crazy4rock.com/wp-content/uploads/2017/11/rs-acdc-4eacf633-23f4-4ddc-a067-f4a953ff2896.jpg" alt="AC/DC" class="orbit-image">
+                                            <figcaption class="orbit-caption">AC/DC</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://crazy4rock.com/wp-content/uploads/2017/11/rs-acdc-4eacf633-23f4-4ddc-a067-f4a953ff2896.jpg" alt="AC/DC" class="orbit-image">
+                                            <figcaption class="orbit-caption">AC/DC</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://crazy4rock.com/wp-content/uploads/2017/11/rs-acdc-4eacf633-23f4-4ddc-a067-f4a953ff2896.jpg" alt="AC/DC" class="orbit-image">
+                                            <figcaption class="orbit-caption">AC/DC</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tabs-panel" id="panel-domingo">
+                            <div class="row">
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://assets.teamrock.com/image/8c9cc3d8-3a26-4e80-be04-b83af421402f?w=800" alt="Black Sabbath" class="orbit-image">
+                                            <figcaption class="orbit-caption">Black Sabbath</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://assets.teamrock.com/image/8c9cc3d8-3a26-4e80-be04-b83af421402f?w=800" alt="Black Sabbath" class="orbit-image">
+                                            <figcaption class="orbit-caption">Black Sabbath</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://assets.teamrock.com/image/8c9cc3d8-3a26-4e80-be04-b83af421402f?w=800" alt="Black Sabbath" class="orbit-image">
+                                            <figcaption class="orbit-caption">Black Sabbath</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://assets.teamrock.com/image/8c9cc3d8-3a26-4e80-be04-b83af421402f?w=800" alt="Black Sabbath" class="orbit-image">
+                                            <figcaption class="orbit-caption">Black Sabbath</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://assets.teamrock.com/image/8c9cc3d8-3a26-4e80-be04-b83af421402f?w=800" alt="Black Sabbath" class="orbit-image">
+                                            <figcaption class="orbit-caption">Black Sabbath</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="small-12 medium-6 column">
+                                    <div class="orbit-container">
+                                        <div class="orbit-slide">
+                                            <img src="http://assets.teamrock.com/image/8c9cc3d8-3a26-4e80-be04-b83af421402f?w=800" alt="Black Sabbath" class="orbit-image">
+                                            <figcaption class="orbit-caption">Black Sabbath</figcaption>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- /LineUp -->
+                <!-- Compra de Boletos -->
+                <section id="tickets-container" data-magellan-tagert="tickets-container">
+                    <h3 class="text-center">Compra de Boletos</h3>
+                    <div class="row">
+                        <div class="column small-10 medium-6 medium-offset-3 small-offset-1">
+                            <ul class="pricing-table">
+                                <li class="title">Platino</li>
+                                <li class="price">$120</li>
+                                <li class="description">Acceso viernes, sabado, domingo</li>
+                                <li>2 bebidas por dia</li>
+                                <li>Estacionamiento incluido todos los dias</li>
+                                <li>Participa a sorteo para acceder al backstage</li>
+                                <li><a class="button" href="#">Compra Platino</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row align-spaced" data-equalizer data-equalizer-on="small">
+                        <div class="column small-6 medium-5 ">
+                            <ul class="pricing-table">
+                                <li class="title">Gold</li>
+                                <li class="price">$90</li>
+                                <li class="description">Acceso viernes, sabado, domingo</li>
+                                <li>1 bebidas por dia</li>
+                                <li data-equalizer-watch>Estacionamiento incluido todos los dias </li>
+                                <li>No participa en sorteo para acceder al backstage</li>
+                                <li><a class="button" href="#">Compra Gold</a></li>
+                            </ul>
+                        </div>
+                        <div class="column small-6 medium-4 ">
+                            <ul class="pricing-table">
+                                <li class="title">Silver</li>
+                                <li class="price">$60</li>
+                                <li class="description">Acceso viernes, sabado, domingo</li>
+                                <li>No incluye bebidas</li>
+                                <li data-equalizer-watch>Estacionamiento no incluido</li>
+                                <li>No participa en sorteo para acceder al backstage</li>
+                                <li><a class="button" href="#">Compra Silver</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <!-- /Compra de Boletos -->
+                <!-- Suscribete -->
+                <section id="suscribete-container" data-magellan-tagert="suscribete-container">
+                    <h3 class="text-center">Suscribete</h3>
+                    <h4 class="text-center"><small>Y recibe las ultimas novedades del concierto</small></h4>
+                    <form action="https://formspree.io/dar_fe@hotmail.com" method="POST" novalidate data-abide>
+                        <div data-abide-error class="row columns small-12 medium-6 text-center error-container" style="display: none;">
+                            <p><i class="fi-alert"></i>Ingreso un correo no valido</p>
+                        </div>
+                        <div class="row columns small-12 medium-6">
+                            <div class="input-group">
+                                <span class="input-group-label"><i class="fi-mail"></i></span>
+                                <input type="email" name="mail" class="input-group-field" placeholder="tu@correo.com" required>
+                                <div class="input-group-button">
+                                    <input type="submit" class="button" value="Suscribirse">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </section>
+                <!-- /Suscribete -->
+                <!-- Info -->
+                <section id="info-container" data-magellan-tagert="info-container">
+                    <h3 class="text-center">Informacion</h3>
+                    <div class="text-center">
+                        <div class="info-map" data-interchange="[assets/mapa-img-small.html, small], [assets/map-large.html, large]"></div>
+                    </div>
+                </section>
+                <!-- /Info -->
+            </div>
+        </div>
+    </div>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
 </html>

@@ -9,10 +9,10 @@ const dias = [
     'domingo'
 ]
 
-function correr(){
+function correr() {
     const min = 5
     const max = 15
-    return Math.round(Math.random()*(max - min)) + min
+    return Math.round(Math.random() * (max - min)) + min
 }
 
 let totalKms = 0
